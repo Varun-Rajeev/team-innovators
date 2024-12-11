@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="message.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Donor Information</h2>
+        <form id="donationForm">
+            <div class="form-group">
+                <label for="donorName">Full Name:</label>
+                <input type="text" id="donorName" name="donorName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="donorEmail">Email:</label>
+                <input type="email" id="donorEmail" name="donorEmail" required>
+            </div>
+
+            <div class="form-group">
+                <label for="donationAmount">Donation Amount ($):</label>
+                <input type="number" id="donationAmount" name="donationAmount" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message to the Trust:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <div class="form-buttons">
+                <button id="submitBtn" onclick="donate()" type="submit">Submit Donation</button>
+                <button id="clearBtn" type="reset">Clear</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="payment.js">       
+    </script>
+</body>
+</html>

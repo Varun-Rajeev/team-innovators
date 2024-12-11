@@ -11,7 +11,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-image: image('hi.jpg');
     color: var(--text-color);
 }
 

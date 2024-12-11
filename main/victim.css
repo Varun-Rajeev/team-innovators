@@ -9,10 +9,10 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-size: 18px;
-    background: url(./40401.jpg);
-    background-size: cover;
+    background: url(./hai.jpeg);
+    background-size: ca;
     font-family: 'Quicksand', sans-serif;
 }
 
